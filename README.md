@@ -1,0 +1,3 @@
+# React useEffect Infinite Loop Bug
+
+This repository demonstrates a common error in React applications: an infinite loop caused by the `useEffect` hook. The bug occurs because the `setCount` function is called within the `useEffect` without specifying any dependencies. This causes the effect to run indefinitely, resulting in a performance issue and potentially crashing the application.  The solution shows how to correctly use the dependency array to prevent this problem. 
